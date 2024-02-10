@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(202, 237, 250);
+}
+
+#navigation {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav-prt1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#navigation h3 {
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+#navigation i {
+    font-size: 17px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 8px;
+    border-radius: 50px;
+}
+
+#navigation h1 {
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+#navigation button {
+    padding: 7px 8px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#coloredbtn {
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+
+#main>h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+#btmtxt {
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+
+/* ... Your existing styles ... */
+
+/* Improve overall page styling */
+body {
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333; /* Set text color */
+    font-family: 'Gilroy', sans-serif; /* Use a custom font if available */
+    line-height: 1.6;
+    transition: background-color 0.5s ease; /* Add a smooth transition effect for background color */
+}
+
+/* Navigation styling */
+#navigation {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.5s ease; /* Add a smooth transition effect for background color */
+}
+
+/* Button styling */
+#navigation button {
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+}
+
+#coloredbtn {
+    background-color: orangered; /* Keep the original color for this button */
+}
+
+/* Header styling */
+#main > h1 {
+    color: #333; /* Set text color */
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    transition: background-color 0.5s ease; /* Add a smooth transition effect for background color */
+}
+
+/* Image styling */
+img {
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to images */
+    transition: transform 0.5s ease; /* Add a smooth transition effect for image rotation */
+}
+
